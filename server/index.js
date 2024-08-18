@@ -29,10 +29,15 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: ['http://localhost:5173', 'http://localhost:3000'], // Frontend origin
+        origin: [
+            'http://localhost:5173', // Local development
+            'http://localhost:3000', // Local development
+            'https://study-notion-hosting-rouge.vercel.app' // Vercel deployment
+        ],
         credentials: true, // Allow credentials (cookies, headers)
     })
 );
+
 
 app.use(
     fileUpload({
