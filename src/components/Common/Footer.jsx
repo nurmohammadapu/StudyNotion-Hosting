@@ -179,7 +179,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ <a className="hover:text-richblack-5 transition-all duration-200" href="https://www.facebook.com/nurmohammad.apu.5/" target="_blank" rel="noopener noreferrer">Nur Mohammad Apu</a>  © 2024 Studynotion</div>
+          <div className="text-center">Made with ❤️ <a className="hover:text-richblack-5 transition-all duration-200">Nur Mohammad Apu</a>  © 2024 Studynotion</div>
         </div>
       </div>
 
